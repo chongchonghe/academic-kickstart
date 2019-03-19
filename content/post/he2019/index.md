@@ -39,11 +39,10 @@ categories = []
   focal_point = ""
 +++
 
-This is a movie my simulations of star cluster formation from a
-molecular cloud. The left and right panel shows the density and
-temperature and the cyan dots represent stars.
-
-{{< video src="Job3.2.2.mp4" controls="yes" >}}
+{{< video src="Job3.2.2.mp4" controls="no" >}}
+- Movie of a simulation of star cluster formation. It shows the
+density (left) and temperature (right) of the gaseous cloud. The cyan
+dots represent stars.
 
 Related publication:<br>
 **C.-C. He**, M. Ricotti & S. Geen (2019, in preparation). “Simulating Star Clusters Across Cosmic Time: I. Initial Mass Function, Star Formation Rates and Efficiencies”
