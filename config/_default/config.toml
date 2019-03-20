@@ -19,8 +19,7 @@ copyright = "&copy; Chong-Chong He"
 googleAnalytics = ""
 
 # Enable comments by entering your Disqus shortname
-disable_comments = true
-disqusShortname = "chongchonghe"
+disqusShortname = ""
 
 ############################
 ## Advanced options below ##

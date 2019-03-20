@@ -1,0 +1,27 @@
+# Theme metadata
+name = "customed_orange"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+# primary = "#4caf50"
+# primary = "#FF7F50"		# texts with hyperlinks
+# primary = "#EF774C"		# texts with hyperlinks
+primary = "#EF7536"		# texts with hyperlinks
+primary_light = "#80e27e"
+primary_dark = "#087f23"
+
+# Menu
+# menu_primary = "#4caf50"	# The menu bar (#4caf50)
+menu_primary = "#FF7F50"
+menu_dark = "#fff"
+menu_text = "#fff"		# menu text
+# menu_text_active = "#1b5e20"	# menu text when cursor on
+menu_text_active = "#472317"	# menu text when cursor on
+menu_title = "#fff"
+
+# Home sections
+background = "rgb(255, 244, 216)"
+home_section_odd = "rgb(255, 244, 216)"
+home_section_even = "rgb(244, 234, 206)"
