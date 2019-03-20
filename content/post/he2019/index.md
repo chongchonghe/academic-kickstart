@@ -1,9 +1,9 @@
 +++
-title = "Simulating Star Cluster Formation"
+title = "Simulating Star Clusters"
 subtitle = ""
 
 # Add a summary to display on homepage (optional).
-summary = ""
+# summary = ""
 
 date = 2019-03-19T00:45:06-04:00
 draft = false
@@ -36,13 +36,23 @@ categories = []
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  focal_point = "Smart"
 +++
 
-{{< video src="Job3.2.2.mp4" controls="no" >}}
-- Movie of a simulation of star cluster formation. It shows the
-density (left) and temperature (right) of the gaseous cloud. The cyan
-dots represent stars.
+- What is this picture?
+- It is a snapshot of a simulation of star cluster formation from a
+molecular cloud. The color pixels are projections of gas density and
+the stars are reprensented by the cyan dots. 
 
+Here is a movie of this simulation:<br>
+<a href="/post/he2019">Read More ...</a>
+<!--more-->
+
+<!-- {{< video poster="config.ini_00853.png" controls="no" src="Job3.2.2.mp4" >}} -->
+<!-- <video poster="config.ini_00853.png" preload="metadata" controls> -->
+<video poster="config.ini_00853.png" controls>
+  <source src="Job3.2.2.mp4" >
+</video>
 Related publication:<br>
 **C.-C. He**, M. Ricotti & S. Geen (2019, in preparation). “Simulating Star Clusters Across Cosmic Time: I. Initial Mass Function, Star Formation Rates and Efficiencies”
+

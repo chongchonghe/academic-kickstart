@@ -11,6 +11,8 @@ weight = 10  # Order that this section will appear.
 title = "Research"
 subtitle = ""
 
+truncated = true
+
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "post"

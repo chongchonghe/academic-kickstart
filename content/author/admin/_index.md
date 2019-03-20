@@ -82,9 +82,12 @@ interests = [
 
 +++
 
-<br>
-**This webpage is under construction** ...<br>
-I'm a third-year graduate student at the University of
-Maryland studying theoretical and computational astrophysics. My
-current research focuses on simulating star formation in the early
-universe.
+<br> **This webpage is under construction** ...<br> 
+
+I am a PhD student at UMD working with Prof. Massimo Ricotti to study
+the formation and evolution of compact star clusters. I use a
+start-of-art radiation-magnetohydrodynamics code _RAMSES-RT_ to
+simulate star formation from molecular clouds in the early
+universe. In particular, I am looking to understand the role of the
+first dense star clusters in the production of supermassive black hole
+seeds and in the reionization of the universe.
