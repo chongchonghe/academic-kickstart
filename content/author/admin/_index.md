@@ -10,6 +10,7 @@ superuser = true
 
 # Role/position
 role = "Ph.D. student in Astronomy"
+# role = "Ph.D. student in <a href="https://www.astro.umd.edu/">Astronomy</a>"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.

@@ -1,24 +1,28 @@
 # Theme metadata
-name = "customed_orange"
+name = "customed_purple"
 
 # Is theme light or dark?
 light = true
 
 # Primary
-# primary = "#4caf50"
-# primary = "#FF7F50"		# texts with hyperlinks
-# primary = "#EF774C"		# texts with hyperlinks
-primary = "#EF7536"		# texts with hyperlinks
+# primary = "#4caf50"		# texts with hyperlinks
+# primary = "#FF7F50"
+# primary = "#EF774C"
+# primary = "#EF7536"		# orange
+# primary = "#6200C5"		# purple
+primary = "#6A03D2"		# purple
 primary_light = "#80e27e"
 primary_dark = "#087f23"
 
 # Menu
 # menu_primary = "#4caf50"	# The menu bar (#4caf50)
-menu_primary = "#FF7F50"
+# menu_primary = "#FF7F50"	# orange
+menu_primary = "#7F37CF"	# purple
 menu_dark = "#fff"
 menu_text = "#fff"		# menu text
 # menu_text_active = "#1b5e20"	# menu text when cursor on
-menu_text_active = "#472317"	# menu text when cursor on
+# menu_text_active = "#472317"	# dark orange
+menu_text_active = "#4C217B"	# dark purple
 menu_title = "#fff"
 
 # Home sections
