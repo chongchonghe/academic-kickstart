@@ -3,9 +3,10 @@
 
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-color_theme = "custom"		# default, forest, and coffee are good
+color_theme = "custom_purple"		# default, forest, and coffee are good
+#color_theme = "forest"		# default, forest, and coffee are good
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
@@ -98,7 +99,7 @@ zoom = 15
 # Load CSS and JS plugins
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = ["custom"]
+#plugins_css = ["custom"]
 plugins_js  = []
 
 ############################
