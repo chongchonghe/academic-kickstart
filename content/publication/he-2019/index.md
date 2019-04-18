@@ -9,6 +9,7 @@ publication = "*arXiv e-prints*"
 tags = ["Astrophysics - Astrophysics of Galaxies"]
 
 url_preprint = "https://arxiv.org/abs/1904.07889"
+links = [{name = "ADS", url = "http://adsabs.harvard.edu/abs/2019arXiv190407889H"}]
 math = true
 
 # Featured image
