@@ -67,7 +67,7 @@ interests = [
 [[social]]
   icon = "google-scholar"
   icon_pack = "ai"
-  link = "https://scholar.google.com/citations?user=U0Q49jQAAAAJ&hl=en&authuser=1"
+  link = "https://scholar.google.com/citations?user=7bUIbWUAAAAJ&hl=en"
 
 [[social]]
   icon = "github"
