@@ -35,14 +35,19 @@ interests = [
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
+  course = "Ph.D Astronomy"
+  institution = "University of Maryland"
+  year = "2018 - Present"
+
+[[education.courses]]
   course = "M.S. Astronomy"
   institution = "University of Maryland"
-  year = 2018
+  year = "2016 - 2018"
 
 [[education.courses]]
   course = "B.S. Physics"
   institution = "Jilin University"
-  year = 2016
+  year = "2012 - 2016"
 
 # [[education.courses]]
 #   course = "BSc in Artificial Intelligence"
