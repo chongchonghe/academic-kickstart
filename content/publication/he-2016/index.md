@@ -10,7 +10,7 @@ tags = ["accretion", "accretion disks", "stars: neutron", "X-rays: binaries", "X
 doi = "10.3847/0004-637X/819/1/47"
 
 #url_preprint = "https://arxiv.org/pdf/1512.02889.pdf"
-links = [{name = "ADS", url = "https://ui.adsabs.harvard.edu/?#abs/2016ApJ...819...47H"}]
+links = [{name = "ads", url = "https://ui.adsabs.harvard.edu/?#abs/2016ApJ...819...47H"}]
 math = true
 
 # Featured image
@@ -26,9 +26,8 @@ math = true
   preview_only = true
 +++
 
-{{< figure src="PosterFig.jpg" >}}
+{{< figure src="featured.jpg" >}}
 
-$\alpha$
 Emission from neutron stars and accretion disks in low-mass X-ray
 binaries (LMXBs) is not isotropic. Previous studies made predictions
 of the anisotropy factors for burst flux, assuming a geometrically
