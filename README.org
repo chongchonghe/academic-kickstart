@@ -1,0 +1,124 @@
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+#+TITLE: CV and my github webpage
+#+AUTHOR: ChongChong He
+
+* How to update my website?
+
+1) Edit, and preview with ~./view~ in the website root folder. 
+2) Close the preview. 
+3) ~gitall~ to sync the whole directory to github.
+4) ~hugo~ in the root folder to build the website and create html files
+   in ~public~.  
+5) ~cd public~ and ~gitall~ to sync html files to
+   ~chongchonghe.github.io~. Done!
+
+* Edit my cv
+My cv is located at website/static/files/cv
+** Update publication list
+- From bibdesk, use Edit -> Copy As -> Template -> Harvard..., and
+  paste to cv.tex. Do the following modification
+  - Bold my name
+  - Fix & symble, if any
+  - Rename journal name
+- Compile and update site
+
+* Reminders
+   
+- Bibliography is located at ~content/author/admin/_index.md~.
+- Contact form is located at ~config/_default/params.toml~.
+- To write posts with org-mode and export to markdown, you may want
+  to use [[https://github.com/kaushalmodi/ox-hugo][ox-hugo]]. Read
+  https://www.zcl.space/tools/my-blog-workflow/.
+- I use [[https://chongchonghe.disqus.com/admin/install/settings/][disqus]] to enable comments to my website (currently disabled).
+
+* Customization
+
+** What did I do?
+- Color theme :: ~data/themes/custom.toml~, copied and modified from
+                 ~themes/academic/data/themes/default.toml~. Changed
+                 the color of the background, menu, and hyperlinks
+                 for the light mode.
+- Font color :: Created ~assets/css/custom.css~, copied and
+     modified from
+     ~themes/academic/layouts/partials/css/academic.css~: set font color to
+     (0, 0, 0, 0.9). Set ~plugins_css = ["custom"]~ in
+     ~config/_default/params.toml~. Reference:
+https://sourcethemes.com/academic/docs/customization/#customize-style-css
+     https://github.com/gcushen/hugo-academic/issues/126
+- Font :: have ~/data/fonts/custom.toml~ but did not change it nor
+          activate it.
+     
+* Publication
+   
+** How to add a citation to my own publication?
+    
+Reference: https://sourcethemes.com/academic/docs/managing-content/#create-a-publication
+
+- Add bib entry :: Add a bib entry to ./MyPublications.bib. Use "Last Name: year
+		   format", e.g. He:2016, as the cite key. Remove the
+                   abstract if it exists.
+
+- Export to hugo :: In the root directory, do
+
+#+BEGIN_SRC bash
+academic import --bibtex MyPublications.bib
+#+END_SRC
+      
+and the folders with new citations will be added to
+=content/publications/=.
+
+Reference: https://pypi.org/project/academic/
+
+- Remove ~cite~ :: Go to the publication folder and remove the .bib
+                   file.
+
+- Add ADS/arxiv link :: Do the following editing to index.md:
+     - Add the following line:
+	#+BEGIN_SRC markdown
+	links = [{name = "ads", url = "url"}]
+	#+END_SRC
+     - If you only have arxiv link, add ~url_preprint = ""~.
+     - If has math, add ~math = true~
+     - Highlight my name by adding ~**~ around my name.
+       
+- (Optional) Abstract or intro :: Copy the Abstract to the bottom of
+     index.md, or write a short paragraph. Latex works as is here.
+
+- (Optional) Feature image :: Refer to he-2016/index.md. May need to
+     crop or extrapolate the image and save it as .jpg/png.
+
+     - Use GIMP: Import pdf to GIMP, select the dpi (300 or 400), and save as jpg.
+
+** Add abstract to Publication (Do not use)
+In order to use LaTeX in the html abstract, you need to make the
+following changes to the abstract entry in index.md:
+- Replace ~\rm~ ~\it~ with ~\textrm{}~ ~\textit{}~, or remove them
+- Replace ~~~ with space
+- Replace ~*~ (e.g. in ~M_*~) with ~\star~
+- In some places, need to add ~\\~ in front of ~>~
+- Escape ~\~ with another ~\~ in front
+
+* Posts
+
+I use posts to write my research description. 
+
+- Create a post :: To create a blog/news article, in the website folder:
+#+BEGIN_SRC bash
+hugo new --kind post post/my-article-name
+#+END_SRC
+Then edit content/post/my-article-name.md.
+
+- Comments :: To disable commenting for a specific post, you can add
+              ~disable_comments =~ true to the post ~+++~ preamble. Or
+              to disable commenting for all posts, you can either set
+              ~disqusShortname = ""~ (working) or ~disable_comments = true~ in
+              ~config.toml~ (not working).
+
+* Color design
+
+See ~color_scheme.html~.
+
+* Future
+
+- Could change to Hugo [[https://themes.gohugo.io/hugo-resume/][Resume theme]] in the future, when the
+  webpage becomes long.
