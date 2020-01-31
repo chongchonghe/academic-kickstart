@@ -9,7 +9,7 @@ weight = 20  # Order that this section will appear.
 
 # title = "Recent Publications"
 title = "Publications"
-subtitle = ""
+subtitle = "&nbsp;Full Publications on [ADS](https://ui.adsabs.harvard.edu/search/filter_database_fq_database=AND&filter_database_fq_database=database%3A%22astronomy%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&p_=0&q=%3Dauthor%3A(%22He%2C%20C.-C.%22)%20OR%20%3Dauthor%3A(%22He%2C%20Chong-Chong%22)&sort=date%20desc%2C%20bibcode%20desc)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

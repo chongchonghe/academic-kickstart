@@ -79,6 +79,16 @@ interests = [
   icon_pack = "fab"
   link = "https://github.com/chongchonghe"
 
+[[social]]
+  icon = "zhihu"
+  icon_pack = "fab"
+  link = "https://www.zhihu.com/people/he-chong-chong"
+
+[[social]]
+  icon = "medium-m"
+  icon_pack = "fab"
+  link = "https://medium.com/@chongchonghe"
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[social]]
